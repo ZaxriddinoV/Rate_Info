@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/rate_info
+    username: postgres
+    password: admin
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+telegram:
+  bots:
+      botUsername: '@rateinfobot'
+      botToken: '7291259778:AAHb70BahbH1PNLRY_CNyX4j4Q3XMi93FiY'
