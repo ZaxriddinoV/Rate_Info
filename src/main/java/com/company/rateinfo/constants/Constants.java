@@ -17,6 +17,7 @@ public enum Constants {
     private String titleEn;
 
 
+
     Constants(String titleUz, String titleRu, String titleEn) {
         this.titleUz = titleUz;
         this.titleRu = titleRu;
